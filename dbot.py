@@ -21,6 +21,7 @@ VIDEO_URLS = {
     'grand2': 'https://t.me/dgmhdkeyjagcomdmsatbt/20', # mirhashem & day hon lee 2019
     'didani1': 'https://t.me/dgmhdkeyjagcomdmsatbt/13', # jam jahani 2019 chin
     'didani2': 'https://t.me/dgmhdkeyjagcomdmsatbt/12', # beigi 37 - 4
+    'didani3': 'https://t.me/dgmhdkeyjagcomdmsatbt/21', # jj 2019 ND
 }
 
 def get_join_channel_button():
@@ -64,6 +65,7 @@ def get_video_buttons(category):
         keyboard = [
             [InlineKeyboardButton("جام جهانی 2019", callback_data='didani1')],
             [InlineKeyboardButton("بیگی & کوک", callback_data='didani2')],
+            [InlineKeyboardButton("ناک دان *جام جهانی 2019", callback_data='didani3')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     return InlineKeyboardMarkup(keyboard)

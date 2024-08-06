@@ -1,9 +1,9 @@
 services:
   codegoobler-bot:
     build: .
-    container_name: codegoobler-bot-container
+    container_name: daeymondobot
     env_file:
-      - app/.env
+      - .env
     volumes:
-      - ./app:/var/www/app
+      - .:/var/www/
     restart: unless-stopped

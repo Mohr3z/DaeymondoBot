@@ -7,10 +7,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 # Copy the application code
-COPY app .
+COPY . .
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 
 # Run the bot
-CMD ["python3", "main.py"]
+CMD ["python3", "dbot.py"]
