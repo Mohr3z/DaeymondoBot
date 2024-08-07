@@ -14,6 +14,9 @@ VIDEO_URLS = {
     'olympic2': 'https://t.me/dgmhdkeyjagcomdmsatbt/15', # karami 2012
     'olympic3': 'https://t.me/dgmhdkeyjagcomdmsatbt/17', # farzan 2016
     'olympic4': 'https://t.me/dgmhdkeyjagcomdmsatbt/16', # iran 2016
+    'olympic5': 'https://t.me/dgmhdkeyjagcomdmsatbt/22', # mobina 2024-1
+    'olympic6': 'https://t.me/dgmhdkeyjagcomdmsatbt/23', # mobina 2024-2
+    'olympic7': 'https://t.me/dgmhdkeyjagcomdmsatbt/24', # mobina 2024-3
     'world1': 'https://t.me/dgmhdkeyjagcomdmsatbt/11', #  iran & rusia 2019
     'world2': 'https://t.me/dgmhdkeyjagcomdmsatbt/10', #  iran & china 2019
     'world3': 'https://t.me/dgmhdkeyjagcomdmsatbt/9', #  iran & brazil
@@ -46,13 +49,16 @@ def get_video_buttons(category):
             [InlineKeyboardButton("کرمی & گارسیا *2012", callback_data='olympic2')],
             [InlineKeyboardButton("عاشورزاده & حاجمی *2016", callback_data='olympic3')],
             [InlineKeyboardButton("بیگی & خدابخشی *2016", callback_data='olympic4')],
+            [InlineKeyboardButton("نعمت زاده & تاو میشل *2024", callback_data='olympic5')],
+            [InlineKeyboardButton("نعمت زاده & ایگلسیاس *2024", callback_data='olympic6')],
+            [InlineKeyboardButton("نعمت زاده & گینگ گو *2024", callback_data='olympic7')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     elif category == 'world':
         keyboard = [
-            [InlineKeyboardButton("تیم ترکیبی ایران & روسیه *چین 2019", callback_data='world1')],
-            [InlineKeyboardButton("تیم ترکیبی ایران & چین *چین 2019", callback_data='world2')],
-            [InlineKeyboardButton("تیم ترکیبی ایران & برزیل 2023", callback_data='world3')],
+            [InlineKeyboardButton("تیم ترکیبی ایران & روسیه *2019", callback_data='world1')],
+            [InlineKeyboardButton("تیم ترکیبی ایران & چین *2019", callback_data='world2')],
+            [InlineKeyboardButton("تیم ترکیبی ایران & برزیل *2023", callback_data='world3')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     elif category == 'grand':

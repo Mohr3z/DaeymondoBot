@@ -1,5 +1,5 @@
 services:
-  codegoobler-bot:
+  Daeymondo-bot:
     build: .
     container_name: daeymondobot
     env_file:
