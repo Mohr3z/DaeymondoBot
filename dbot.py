@@ -19,6 +19,7 @@ VIDEO_URLS = {
     'olympic7': 'https://t.me/dgmhdkeyjagcomdmsatbt/24', # mobina 2024-3
     'olympic8': 'https://t.me/dgmhdkeyjagcomdmsatbt/25', # mobina 2024-4
     'olympic9': 'https://t.me/dgmhdkeyjagcomdmsatbt/26', # nahid 2024-1
+    'olympic10': 'https://t.me/dgmhdkeyjagcomdmsatbt/27', # nahid 2024-2
     'world1': 'https://t.me/dgmhdkeyjagcomdmsatbt/11', #  iran & rusia 2019
     'world2': 'https://t.me/dgmhdkeyjagcomdmsatbt/10', #  iran & china 2019
     'world3': 'https://t.me/dgmhdkeyjagcomdmsatbt/9', #  iran & brazil
@@ -27,6 +28,7 @@ VIDEO_URLS = {
     'didani1': 'https://t.me/dgmhdkeyjagcomdmsatbt/13', # jam jahani 2019 chin
     'didani2': 'https://t.me/dgmhdkeyjagcomdmsatbt/12', # beigi 37 - 4
     'didani3': 'https://t.me/dgmhdkeyjagcomdmsatbt/21', # jj 2019 ND
+    
 }
 
 def get_join_channel_button():
@@ -56,6 +58,7 @@ def get_video_buttons(category):
             [InlineKeyboardButton("نعمت زاده & گینگ گو *2024", callback_data='olympic7')],
             [InlineKeyboardButton("نعمت زاده: برنز *2024", callback_data='olympic8')],
             [InlineKeyboardButton("کیانی & علیزاده *2024", callback_data='olympic9')],
+            [InlineKeyboardButton("کیانی & تومی *2024", callback_data='olympic10')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     elif category == 'world':
