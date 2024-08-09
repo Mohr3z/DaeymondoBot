@@ -24,8 +24,8 @@ VIDEO_URLS = {
     'olympic12': 'https://t.me/dgmhdkeyjagcomdmsatbt/29', # kimia 2024-2
     'olympic13': 'https://t.me/dgmhdkeyjagcomdmsatbt/30', # nahid 2024-4
     'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/31', # mehran 2024-1
-    'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/32', # mehran 2024-2
-    'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/33', # mehran 2024-3
+    'olympic15': 'https://t.me/dgmhdkeyjagcomdmsatbt/32', # mehran 2024-2
+    'olympic16': 'https://t.me/dgmhdkeyjagcomdmsatbt/33', # mehran 2024-3
     'world1': 'https://t.me/dgmhdkeyjagcomdmsatbt/11', #  iran & rusia 2019
     'world2': 'https://t.me/dgmhdkeyjagcomdmsatbt/10', #  iran & china 2019
     'world3': 'https://t.me/dgmhdkeyjagcomdmsatbt/9', #  iran & brazil
