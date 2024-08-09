@@ -24,6 +24,8 @@ VIDEO_URLS = {
     'olympic12': 'https://t.me/dgmhdkeyjagcomdmsatbt/29', # kimia 2024-2
     'olympic13': 'https://t.me/dgmhdkeyjagcomdmsatbt/30', # nahid 2024-4
     'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/31', # mehran 2024-1
+    'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/32', # mehran 2024-2
+    'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/33', # mehran 2024-3
     'world1': 'https://t.me/dgmhdkeyjagcomdmsatbt/11', #  iran & rusia 2019
     'world2': 'https://t.me/dgmhdkeyjagcomdmsatbt/10', #  iran & china 2019
     'world3': 'https://t.me/dgmhdkeyjagcomdmsatbt/9', #  iran & brazil
@@ -66,6 +68,8 @@ def get_video_buttons(category):
             [InlineKeyboardButton("علیزاده: برنز *2024", callback_data='olympic12')],
             [InlineKeyboardButton("کیانی: نقره *2024", callback_data='olympic13')],
             [InlineKeyboardButton("برخورداری & جایسنوف *2024", callback_data='olympic14')],
+            [InlineKeyboardButton("برخورداری & آلسیو *2024", callback_data='olympic15')],
+            [InlineKeyboardButton("برخورداری & گئون وو *2024", callback_data='olympic16')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     elif category == 'world':
