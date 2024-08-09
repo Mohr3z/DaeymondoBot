@@ -18,8 +18,12 @@ VIDEO_URLS = {
     'olympic6': 'https://t.me/dgmhdkeyjagcomdmsatbt/23', # mobina 2024-2
     'olympic7': 'https://t.me/dgmhdkeyjagcomdmsatbt/24', # mobina 2024-3
     'olympic8': 'https://t.me/dgmhdkeyjagcomdmsatbt/25', # mobina 2024-4
-    'olympic9': 'https://t.me/dgmhdkeyjagcomdmsatbt/26', # nahid 2024-1
+    'olympic9': 'https://t.me/dgmhdkeyjagcomdmsatbt/26', # nahid & kimia 2024-1
     'olympic10': 'https://t.me/dgmhdkeyjagcomdmsatbt/27', # nahid 2024-2
+    'olympic11': 'https://t.me/dgmhdkeyjagcomdmsatbt/28', # nahid 2024-3
+    'olympic12': 'https://t.me/dgmhdkeyjagcomdmsatbt/29', # kimia 2024-2
+    'olympic13': 'https://t.me/dgmhdkeyjagcomdmsatbt/30', # nahid 2024-4
+    'olympic14': 'https://t.me/dgmhdkeyjagcomdmsatbt/31', # mehran 2024-1
     'world1': 'https://t.me/dgmhdkeyjagcomdmsatbt/11', #  iran & rusia 2019
     'world2': 'https://t.me/dgmhdkeyjagcomdmsatbt/10', #  iran & china 2019
     'world3': 'https://t.me/dgmhdkeyjagcomdmsatbt/9', #  iran & brazil
@@ -28,7 +32,6 @@ VIDEO_URLS = {
     'didani1': 'https://t.me/dgmhdkeyjagcomdmsatbt/13', # jam jahani 2019 chin
     'didani2': 'https://t.me/dgmhdkeyjagcomdmsatbt/12', # beigi 37 - 4
     'didani3': 'https://t.me/dgmhdkeyjagcomdmsatbt/21', # jj 2019 ND
-    
 }
 
 def get_join_channel_button():
@@ -59,6 +62,10 @@ def get_video_buttons(category):
             [InlineKeyboardButton("نعمت زاده: برنز *2024", callback_data='olympic8')],
             [InlineKeyboardButton("کیانی & علیزاده *2024", callback_data='olympic9')],
             [InlineKeyboardButton("کیانی & تومی *2024", callback_data='olympic10')],
+            [InlineKeyboardButton("کیانی & عون *2024", callback_data='olympic11')],
+            [InlineKeyboardButton("علیزاده: برنز *2024", callback_data='olympic12')],
+            [InlineKeyboardButton("کیانی: نقره *2024", callback_data='olympic13')],
+            [InlineKeyboardButton("برخورداری & جایسنوف *2024", callback_data='olympic14')],
             [InlineKeyboardButton("بازگشت", callback_data='back_to_categories')]
         ]
     elif category == 'world':
